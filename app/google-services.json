@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "512218082068",
+    "firebase_url": "https://medeasy-3fa24.firebaseio.com",
+    "project_id": "medeasy-3fa24",
+    "storage_bucket": "medeasy-3fa24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512218082068:android:8efcfe7118585a24",
+        "android_client_info": {
+          "package_name": "com.example.nihal.medeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512218082068-r6g96i1plmgg8erjiljni1e6tio0vrkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG98JGa5-MehYQ6u2CWjWpjivNHb_Cr6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,22 +5,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@drawable/backgroundnon"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <!--<ImageView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="200dp"-->
-        <!--android:background="@drawable/backgroundnon" />-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:background="@drawable/backgroundnon" />-->
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
-        >
+        android:layout_marginTop="200dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,6 +42,7 @@
                     android:src="@drawable/man" />
 
                 <EditText
+                    android:id="@+id/UserName"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_weight="0.1"
@@ -57,7 +57,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
-
                 android:layout_marginRight="20dp"
                 android:orientation="horizontal"
                 android:padding="3dp">
@@ -71,6 +70,7 @@
                     android:src="@drawable/ic_phone_contact" />
 
                 <EditText
+                    android:id="@+id/Phone"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight=".8"
@@ -113,6 +113,7 @@
                     android:src="@drawable/home" />
 
                 <EditText
+                    android:id="@+id/Address"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_weight="0.1"
@@ -141,6 +142,7 @@
                     android:src="@drawable/engineer" />
 
                 <EditText
+                    android:id="@+id/Occupation"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_weight="0.1"
@@ -169,6 +171,7 @@
                     android:src="@drawable/link" />
 
                 <EditText
+                    android:id="@+id/FamilyHistoryLink"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_weight="0.1"
@@ -194,11 +197,11 @@
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-
                     android:padding="5dp"
                     android:src="@drawable/weight" />
 
                 <EditText
+                    android:id="@+id/Weight"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight=".8"
@@ -214,6 +217,7 @@
                     android:src="@drawable/height" />
 
                 <EditText
+                    android:id="@+id/Height"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight=".8"
@@ -242,6 +246,7 @@
                     android:src="@drawable/password" />
 
                 <EditText
+                    android:id="@+id/PassWord"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_weight="0.1"
@@ -253,6 +258,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/SignUp"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center_horizontal"
@@ -260,7 +266,9 @@
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button_shap"
                 android:text="Sign up"
-                android:textColor="@android:color/white" />
+                android:onClick="SignUpOnClick"
+                android:textColor="@android:color/white"
+                 />
 
 
         </LinearLayout>

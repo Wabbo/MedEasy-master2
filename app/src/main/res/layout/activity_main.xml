@@ -107,7 +107,7 @@
         android:id="@+id/toSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="signUp"
+        android:onClick="signUpForm"
         android:text="Not register ? Sign up "
         android:textColor="@color/colorAccent"
         android:textStyle="bold" />
