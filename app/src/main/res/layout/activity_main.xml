@@ -26,6 +26,7 @@
             android:src="@drawable/ic_phone_contact" />
 
         <EditText
+            android:id="@+id/loginPhone"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_weight="0.1"
@@ -54,6 +55,7 @@
             android:src="@drawable/password" />
 
         <EditText
+            android:id="@+id/loginPassWord"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_weight="0.1"
@@ -94,10 +96,10 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/login"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="50dp"
-
         android:layout_marginBottom="30dp"
         android:background="@drawable/button_shap"
         android:text="Login"
@@ -110,6 +112,7 @@
         android:onClick="signUpForm"
         android:text="Not register ? Sign up "
         android:textColor="@color/colorAccent"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 
