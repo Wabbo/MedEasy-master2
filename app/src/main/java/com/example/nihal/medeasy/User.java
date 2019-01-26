@@ -1,6 +1,7 @@
 package com.example.nihal.medeasy;
 
 public class User {
+
   private   String UserName, Address, Occupation, FamilyHistoryLink, Weight, Height;
 
     public String getUserName() {
